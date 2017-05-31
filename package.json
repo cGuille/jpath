@@ -1,0 +1,23 @@
+{
+  "name": "jpath",
+  "version": "0.1.0",
+  "description": "CLI tool to use jsonpath (xpath for JSON).",
+  "bin": {
+    "jpath": "src/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jsonpath",
+    "cli",
+    "xpath",
+    "json"
+  ],
+  "author": "cGuille <cguille.dev@gmail.com>",
+  "dependencies": {
+    "command-line-args": "^4.0.6",
+    "get-stdin": "^5.0.1",
+    "jsonpath": "^0.2.11"
+  }
+}
